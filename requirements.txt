@@ -1,0 +1,6 @@
+torch==1.8.0
+torchtext==0.9
+
+matplotlib
+tensorboardX
+spacy
