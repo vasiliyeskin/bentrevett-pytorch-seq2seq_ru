@@ -4,8 +4,7 @@
 
 Этот репозиторий содержит учебные материалы для понимания работы моделей глубоких нейронный сетей sequence-to-sequence (seq2seq) и их реализации с помощью [PyTorch](https://github.com/pytorch/pytorch) 1.8, [torchtext](https://github.com/pytorch/text) 0.9 и [spaCy](https://spacy.io/) 3.0,  под Python 3.8.
 
-**If you find any mistakes or disagree with any of the explanations, please do not hesitate to [submit an issue](https://github.com/bentrevett/pytorch-seq2seq/issues/new). I welcome any feedback, positive or negative!**
-
+**Если вы обнаружите какие-либо ошибки или не согласны с любым из объяснений, пожалуйста, не стесняйтесь обращаться [submit an issue](https://github.com/bentrevett/pytorch-seq2seq/issues/new). I welcome any feedback, positive or negative!**
 
 ## Getting Started
 
