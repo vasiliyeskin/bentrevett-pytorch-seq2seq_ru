@@ -51,9 +51,9 @@ python -m spacy download de_core_news_sm
 
     Continuing with the non-RNN based models, we implement the Transformer model from [Attention Is All You Need](https://arxiv.org/abs/1706.03762). This model is based soley on attention mechanisms and introduces Multi-Head Attention. The encoder and decoder are made of multiple layers, with each layer consisting of Multi-Head Attention and Positionwise Feedforward sublayers. This model is currently used in many state-of-the-art sequence-to-sequence and transfer learning tasks.
 
-## References
+## Список дополнительных источников и литературы
 
-Here are some things I looked at while making these tutorials. Some of it may be out of date.
+Ниже некоторые ссылки на работы, которые помогли при создании этих учебных пособий. Некоторые из них могут быть устаревшими.
 
 - https://github.com/spro/practical-pytorch
 - https://github.com/keon/seq2seq
@@ -62,3 +62,4 @@ Here are some things I looked at while making these tutorials. Some of it may be
 - https://github.com/jadore801120/attention-is-all-you-need-pytorch
 - http://nlp.seas.harvard.edu/2018/04/03/attention.html
 - https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/
+- Николенко С.И., Кадурин А., Архангельская Е.В. Глубокое обучение. Погружение в мир нейронных сетей. Санкт-Петербург: Питер. 2020. 481 с.
