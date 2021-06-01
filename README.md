@@ -1,22 +1,24 @@
 # PyTorch Seq2Seq
 
-## Note: This repo only works with torchtext 0.9 or above which requires PyTorch 1.8 or above. If you are using torchtext 0.8 then please use [this](https://github.com/bentrevett/pytorch-seq2seq/tree/torchtext08) branch
+## Примечание. Примеры в этом репозитории работают только с torchtext 0.9 или выше, для которого требуется PyTorch 1.8 или выше. Если вы используете torchtext 0.8, то воспользуйтесь [этой](https://github.com/bentrevett/pytorch-seq2seq/tree/torchtext08) веткой
 
 Этот репозиторий содержит учебные материалы для понимания работы моделей глубоких нейронный сетей sequence-to-sequence (seq2seq) и их реализации с помощью [PyTorch](https://github.com/pytorch/pytorch) 1.8, [torchtext](https://github.com/pytorch/text) 0.9 и [spaCy](https://spacy.io/) 3.0,  под Python 3.8.
 
-**Если вы обнаружите какие-либо ошибки или не согласны с любым из объяснений, пожалуйста, не стесняйтесь обращаться [submit an issue](https://github.com/bentrevett/pytorch-seq2seq/issues/new). I welcome any feedback, positive or negative!**
+**Если вы обнаружите какие-либо ошибки или не согласны с любым из объяснений, пожалуйста, не стесняйтесь обращаться [submit an issue](https://github.com/bentrevett/pytorch-seq2seq/issues/new). Приветствуется как положительная, так и отрицательная критика!**
 
-## Getting Started
+## Подготовка перед началом работы
 
-To install PyTorch, see installation instructions on the [PyTorch website](pytorch.org).
+Если запускаете в Google Colaboratory, то, возможно, у Вас уже всё есть.
 
-To install torchtext:
+Чтобы установить PyTorch смотрите инструкцию по установке в [PyTorch website](pytorch.org).
+
+Установите torchtext:
 
 ``` bash
 pip install torchtext
 ```
 
-We'll also make use of spaCy to tokenize our data. To install spaCy, follow the instructions [here](https://spacy.io/usage/) making sure to install both the English and German models with:
+Будет использована spaCy для токенизации данных. Чтобы установить spaCy, следуйте инструкциям [здесь](https://spacy.io/usage/), убедившись, что были установлены английская и немецкая модели:
 
 ``` bash
 python -m spacy download en_core_web_sm
