@@ -16,7 +16,7 @@ def sample(file_name, file_revert, numberOfStrings, min_length=3, max_length=15)
             print(random_revert)
 
 
-def sample_to_csv(file_name, numberOfStrings, min_length=3, max_length=25):
+def sample_to_csv(file_name, numberOfStrings, min_length=3, max_length=15):
     fields = ['src', 'trg']
     dict_writer = csv.DictWriter(open(file_name, 'w'), fieldnames=fields)
     dict_writer.writeheader()
@@ -40,6 +40,6 @@ if __name__ == '__main__':
     # sample('toy_revert/src-val.txt', 'toy_revert/trg-val.txt', 1000)
     # sample('toy_revert/src-test.txt', 'toy_revert/trg-test.txt', 1000)
 
-    sample_to_csv('toy_revert/train.csv', 20000)
-    sample_to_csv('toy_revert/val.csv', 2000)
-    sample_to_csv('toy_revert/test.csv', 2000)
+    sample_to_csv('toy_revert/train.csv', 10000)
+    sample_to_csv('toy_revert/val.csv', 1000)
+    sample_to_csv('toy_revert/test.csv', 1000)
