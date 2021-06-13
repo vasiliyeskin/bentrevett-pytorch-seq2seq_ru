@@ -24,7 +24,7 @@ def sample_to_csv(file_name, numberOfStrings, min_length=3, max_length=15):
 
     for i in range(numberOfStrings):
         random_length = randrange(min_length, max_length)  # Pick a random length
-        random_char_list = [choice(characters[:-1]) for _ in range(random_length)]  # Pick random chars
+        random_char_list = [choice(characters) for _ in range(random_length)]  # Pick random chars
         random_string = ' '.join(random_char_list)
         random_revert = ''.join([x for x in random_string[::-1]])
 
