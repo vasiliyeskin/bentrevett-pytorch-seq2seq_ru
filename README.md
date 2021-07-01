@@ -66,3 +66,4 @@ python -m spacy download de_core_news_sm
 - http://nlp.seas.harvard.edu/2018/04/03/attention.html
 - https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/
 - Николенко С.И., Кадурин А., Архангельская Е.В. Глубокое обучение. Погружение в мир нейронных сетей. Санкт-Петербург: Питер. 2020. 481 с.
+- Гудфеллоу Я., Бенджио И., Курвилль А. Глубокое обучение. Москва: ДМК-Пресс. 2018. 652 с.
